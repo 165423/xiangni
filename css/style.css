@@ -1,0 +1,201 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0 auto;
+	font-size: 14px;
+	background: url(../images/bg.jpg) no-repeat fixed;
+	position: relative;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+img {
+	border: none;
+}
+a {
+	cursor: pointer;
+	color: #333;
+	text-decoration: none;
+	outline: none;
+}
+ul {
+	list-style-type: none;
+}
+em {
+	font-style: normal;
+}
+div.clear {
+	font: 0px Arial;
+	line-height: 0;
+	height: 0;
+	overflow: hidden;
+	clear: both;
+	position: relative;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+	position: relative;
+}
+.wrapin {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.tu1 {
+	display: block;
+}
+.tu1 img {
+	width: 100%;
+	display: block;
+}
+.con {
+	position: relative;
+	background: #fff;
+	min-height: 500px;
+	padding: 15px;
+}
+.navzuo {
+	left: 15px;
+	top: 15px;
+	width: 200px;
+	background-image: linear-gradient(-120deg, #0bbafb, #4285ec);
+	float: right;
+}
+.navzuo li {
+	line-height: 50px;
+	text-align: center;
+}
+.navzuo li a {
+	display: block;
+	color: #fff;
+	border-bottom: 1px solid #ccc;
+}
+.navzhong {
+	margin-left: auto;
+}
+
+.daocheng {
+	padding-bottom: 20px;
+}
+
+.daocheng h2 {
+	color: #003b6e;
+}
+.tp{
+	margin: 0 auto;
+}
+.tp li {
+	width: 50%;
+	float: left;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.tp li img {
+	width: 100%;
+	height: 280px;
+	object-fit: cover;
+	border: 1px solid #eee;
+}
+tp li h2 {
+	font-size: 18px;
+	text-align: center;
+	line-height: 30px;
+	margin-bottom: 20px;
+	color: #333;
+}
+
+.tp li p {
+	line-height: 30px;
+	height: 360px;
+}
+
+footer {
+    background-image: linear-gradient(-120deg, #0bbafb, #4285ec);
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+}
+.text_box {
+	line-height: 26px;
+	font-size: 14px;
+	color: #333;
+	
+}
+.xing{
+	font-size: 20px;
+	margin-left: 300px;
+}
+.you{
+	font-size: 20px;
+	margin-left: 300px;
+}
+.liu{
+	font-size: 20px;
+	margin-left: 300px;
+}
+.liu1{
+	float: right;
+	margin-right: 170px;
+	margin-top: 10px;
+}
+.search{
+	float: right;
+	margin-right: 170px;
+	margin-top: -20px;
+}
+.search input{
+	padding-left:10px;
+	margin-top: 30px;
+	width: 300px;
+	height: 30px;
+}
+.tijiao{
+	margin-left: 380px;
+	width: 150px;
+	height:60px;
+	background-image: linear-gradient(-120deg, #0bbafb, #4285ec);
+}
+.fjs li {
+    position: relative;
+    float: left;
+    width: 240px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.fjs li img {
+    display: block;
+    width: 100%;
+    height: 160px;
+}
+.fjs li div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    transition:all ease .5s;
+}
+.fjs .fjsz{
+	position: absolute;
+	top: -35px;
+	font-size: 15px;
+	color: #FFFFFF;
+	transition: all ease .5s;
+	
+}
+.fjs li:hover div {
+    height: 160px;
+    line-height: 170px;
+	background-color: rgba(0, 0, 0, .3);
+}
+.fjs li:hover .fjsz{
+	top: 0px;
+}
